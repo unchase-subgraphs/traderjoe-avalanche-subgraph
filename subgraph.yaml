@@ -1,4 +1,4 @@
-specVersion: 0.0.4
+specVersion: 0.0.5
 description: Trader Joe builds on the frontier of Decentralised Finance, pushing innovation to offer a truly unique trading experience that is seamless and accessible, whether you are new or a well versed in the permission less world of DeFi.
 repository: https://github.com/unchase-subgraphs/traderjoe-avalanche-subgraph
 schema:
@@ -13,7 +13,7 @@ dataSources:
       startBlock: 2486000
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.6
+      apiVersion: 0.0.7
       language: wasm/assemblyscript
       entities:
         - Pair
@@ -39,7 +39,7 @@ templates:
       abi: Pair
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.6
+      apiVersion: 0.0.7
       language: wasm/assemblyscript
       file: ./src/core.ts
       entities:
